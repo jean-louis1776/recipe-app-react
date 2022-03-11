@@ -46,6 +46,7 @@ const SLink = styled(NavLink)`
     height: 6rem;
     cursor: pointer;
     transform: scale(0.8);
+    transition: 0.5s;
 
     h4 {
         color: #fff;
@@ -59,6 +60,7 @@ const SLink = styled(NavLink)`
 
     &.active {
         background: linear-gradient(to right, #f27121, #e94057);
+        transition: 0.5s;
 
         h4 {
             color: #fff;

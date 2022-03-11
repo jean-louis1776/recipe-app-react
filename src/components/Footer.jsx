@@ -24,6 +24,13 @@ const FooterDiv = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    h4 {
+        background: linear-gradient(to right, #f27121, #e94057);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 `
 
 export default Footer
